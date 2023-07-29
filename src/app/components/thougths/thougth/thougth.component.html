@@ -1,0 +1,18 @@
+<div class="pensamento {{ pensamento.modelo }} ff-rotboto-mono " [ngClass]="larguraPensamentos()">
+  <img
+    src="../../../../assets/{{ pensamento.modelo }}.png"
+    alt="aspas colorida"
+  />
+  <p class="conteudo">{{ pensamento.conteudo }}</p>
+  <p class="conteudo">
+    <b>{{ pensamento.autoria }}</b>
+  </p>
+  <div class="acoes">
+    <button class="botao-editar">
+      <img src="../../../../assets/icone-editar.png" alt="" />
+    </button>
+    <button class="botao-excluir">
+      <img src="../../../../assets/icone-excluir.png" alt="" />
+    </button>
+  </div>
+</div>
