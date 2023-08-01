@@ -1,4 +1,7 @@
-<div class="pensamento {{ pensamento.modelo }} ff-rotboto-mono " [ngClass]="larguraPensamentos()">
+<div
+  class="pensamento {{ pensamento.modelo }} ff-rotboto-mono "
+  [ngClass]="larguraPensamentos()"
+>
   <img
     src="../../../../assets/{{ pensamento.modelo }}.png"
     alt="aspas colorida"
@@ -9,9 +12,15 @@
   </p>
   <div class="acoes">
     <button class="botao-editar">
-      <img src="../../../../assets/icone-editar.png" alt="" />
+      <img
+        src="../../../../assets/icone-editar.png"
+        routerLink="/pensamentos/editarPensamento/{{ pensamento.id }}"
+      />
     </button>
-    <button class="botao-excluir">
+    <button
+      class="botao-excluir"
+      routerLink="/pensamentos/excluirPensamento/{{ pensamento.id }}"
+    >
       <img src="../../../../assets/icone-excluir.png" alt="" />
     </button>
   </div>
