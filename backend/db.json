@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "lucas",
+      "autoria": "lsb",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 1,
+      "conteudo": "lucasSSS",
+      "autoria": "lsbbb",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 1,
+      "conteudo": "lucas",
+      "autoria": "lsb",
+      "modelo": "modelo3"
+    }
+  ]
+}

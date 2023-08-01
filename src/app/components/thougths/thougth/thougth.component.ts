@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Thoughts } from '../../thoughts/thoughts';
 
 @Component({
   selector: 'app-thougth',
@@ -6,7 +7,8 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./thougth.component.css']
 })
 export class ThougthComponent {
-  @Input() pensamento = {
+  @Input() pensamento : Thoughts = {
+    id: 0,
     conteudo: '',
     autoria: '',
     modelo : ''

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Thoughts } from '../thoughts';
 
 @Component({
   selector: 'app-list-thoughts',
@@ -6,17 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./list-thoughts.component.css'],
 })
 export class ListThoughtsComponent {
-  listaPensamento = [
-    {
-      conteudo: 'lucas',
-      autoria: 'santana',
-      modelo: 'modelo2',
-    },
-
-    {
-      conteudo: 'jasna',
-      autoria: 'santos',
-      modelo: 'modelo3',
-    },
-  ];
+  listaPensamento: Thoughts[] = [];
 }
